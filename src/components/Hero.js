@@ -205,7 +205,7 @@ export default function Hero() {
                 </div> */}
               </motion.div>
 
-              {/* Floating Cards */}
+              {/* Floating Cards  t*/}
               <motion.div
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
