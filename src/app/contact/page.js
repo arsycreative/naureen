@@ -50,9 +50,9 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: "Email",
-      content: "info@naureen.com",
+      content: "naureengaram@gmail.com",
       description: "Kirim pertanyaan detail",
-      href: "mailto:info@naureen.com",
+      href: "mailto:naureengaram@gmail.com",
       color: "text-blue-600",
       bgColor: "bg-blue-100",
     },

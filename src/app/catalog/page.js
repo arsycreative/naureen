@@ -84,7 +84,7 @@ export default function CatalogPage() {
         <div className={`relative ${viewMode === "list" ? "lg:w-80" : ""}`}>
           <div
             className={`relative overflow-hidden ${
-              viewMode === "list" ? "h-48 lg:h-full" : "h-64"
+              viewMode === "list" ? "h-52 lg:h-full" : "h-96"
             }`}
           >
             <Image
@@ -92,6 +92,7 @@ export default function CatalogPage() {
               alt={product.name}
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-700"
+              style={{ objectPosition: "center 70%" }}
             />
             {!product.inStock && (
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center">

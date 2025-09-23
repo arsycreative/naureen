@@ -53,8 +53,8 @@ export default function Footer() {
     {
       icon: Mail,
       title: "Email",
-      content: "info@naureen.com",
-      href: "mailto:info@naureen.com",
+      content: "naureengaram@gmail.com",
+      href: "mailto:naureengaram@gmail.com",
     },
     {
       icon: MapPin,

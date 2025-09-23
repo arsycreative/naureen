@@ -136,9 +136,10 @@ export default function Features() {
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {feature.description}
-                  </p>
+                  <p
+                    className="text-gray-600 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: feature.description }}
+                  />
                 </CardContent>
               </Card>
             </motion.div>
